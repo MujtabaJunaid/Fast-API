@@ -1,0 +1,14 @@
+{
+  "students": [
+    {"id": 7873, "name": "Mujtaba Junaid", "field_of_study": "Computer Science and AI", "cgpa": 3.8},
+    {"id": 7821, "name": "Ali Ahmed", "field_of_study": "Data Science", "cgpa": 3.5},
+    {"id": 7915, "name": "Sara Khan", "field_of_study": "Artificial Intelligence", "cgpa": 3.9},
+    {"id": 7654, "name": "Ahmed Raza", "field_of_study": "Software Engineering", "cgpa": 3.2},
+    {"id": 8012, "name": "Fatima Ali", "field_of_study": "Cyber Security", "cgpa": 3.7},
+    {"id": 8123, "name": "Usman Malik", "field_of_study": "Machine Learning", "cgpa": 3.6},
+    {"id": 8234, "name": "Zainab Hassan", "field_of_study": "Cloud Computing", "cgpa": 3.4},
+    {"id": 8345, "name": "Bilal Akhtar", "field_of_study": "Web Development", "cgpa": 3.1},
+    {"id": 8456, "name": "Hina Siddiqui", "field_of_study": "Mobile Development", "cgpa": 3.8},
+    {"id": 8567, "name": "Omar Farooq", "field_of_study": "Database Systems", "cgpa": 3.3}
+  ]
+}
