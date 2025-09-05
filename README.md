@@ -21,8 +21,8 @@ pip install fastapi uvicorn
 ## Start the server using:
 uvicorn main:app --reload
 
-## API Endpoints
-## Get All Students
+# API Endpoints
+# Get All Students
 URL: /students
 
 Method: GET
@@ -31,7 +31,7 @@ Response: Returns all students data
 
 Status Code: 200
 
-## Get Student by ID
+# Get Student by ID
 
 URL: /students
 
@@ -41,7 +41,7 @@ Response: Returns all students data
 
 Status Code: 200x
 
-## Get Sorted Students
+# Get Sorted Students
 
 URL: /students/sorted?sort_by=cgpa
 
@@ -53,7 +53,7 @@ Response: Returns students sorted by CGPA in descending order
 
 Status Code: 200 (Success), 400 (Bad Request)
 
-## Data Structure
+# Data Structure
 Each student object contains:
 
 id: Student identification number
@@ -64,13 +64,13 @@ field_of_study: Academic discipline
 
 cgpa: Cumulative Grade Point Average
 
-## Example Usage
+# Example Usage
 
 curl http://localhost:8000/students
 curl http://localhost:8000/student/7873
 curl http://localhost:8000/students/sorted?sort_by=cgpa
 
-## Project Structure
+# Project Structure
 
 project/
 ├── main.py
