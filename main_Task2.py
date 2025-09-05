@@ -4,7 +4,7 @@ from typing import List, Optional
 
 app = FastAPI()
 
-with open('students.json', 'r') as file:
+with open('students_Task2.json', 'r') as file:
     data = json.load(file)
     students = data['students']
 
